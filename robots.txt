@@ -1,0 +1,8 @@
+User-agent: *
+Disallow:
+Disallow: /404.php
+Disallow: /admin/
+Disallow: /vkAuth
+Disallow: /system/
+Host: http://cseuro.ru
+Sitemap: http://cseuro.ru/system/sitemap.xml
