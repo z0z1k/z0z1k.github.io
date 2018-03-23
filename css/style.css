@@ -1,0 +1,202 @@
+﻿.body-menu{
+
+	background:white URL(../images/top.png);
+	background-repeat:repeat-x;
+	overflow:hidden;
+}
+
+
+img{
+border:0px solid black;
+}
+
+.a_menu{
+
+	display:block; /* перетворити у прямокутник */
+
+	width:140px;
+
+	background-image: url(../images/knopka1.png); /* Путь к фоновому рисунку */
+    	background-position: left top; /* Положение фона */
+    	background-repeat: no-repeat; /* не повторювати*/
+
+	
+	text-align:center;
+	padding:4px 0px 0px 0px;
+
+	font-size:12px;
+	font-family:Arial,sans-serif;
+
+
+	text-decoration: none;
+
+	letter-spacing:3px;
+	color:#FFFFFF;
+}
+
+
+.a_menu:hover{
+	background-image: url(../images/knopka2.png); /* Путь к фоновому рисунку */
+    	padding:6px 0px 0px 0px;
+	font-size:11px;
+	letter-spacing:1px;
+	
+} 
+
+
+
+
+
+.list{
+	background-image: url(../images/list-1.png); /* Путь к фоновому рисунку */
+    	background-position: left top; /* Положение фона */
+    	background-repeat: no-repeat; /* Повторяем фон по горизонтали */
+	display:block;
+	width:490px;
+	height:180px;
+	padding:0px 0px 0px 0px;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	letter-spacing:1px;
+	color:#cc3300;
+}
+.list:hover{
+	background-image: url(../images/list-2.png); /* Путь к фоновому рисунку */
+    	padding:0px 0px 0px 0px;
+	color:red;
+} 
+
+.list-text{
+	float:left;
+	width:220px;
+	padding:0px 0px 0px 20px;
+	height:158px;
+    	border:0px solid black;
+	font-family:arial, sans-serif;
+	font-size:12px;
+	text-align:justify;
+} 
+.list-img{
+	float:left;
+	
+	
+
+	top:6px;
+	padding:16px 0px 0px 24px;
+	
+    	border:0px solid black;
+	
+} 
+
+
+.top-body{
+	background-image: url(../images/top-body.jpg); /* Путь к фоновому рисунку */
+    	background-position: left top; /* Положение фона */
+    	background-repeat: repeat-x; /* Повторяем фон по горизонтали */
+
+}
+
+.logotext1{
+	position:relative;
+	top:0px;
+	left:0px;
+	color: #ff8400;
+	font-family:Arial,sans-serif;
+	font-size:20px;
+	letter-spacing:3px; 
+}
+.logotext2{
+	position:relative;
+	top:0px;
+	left:0px;
+	
+	font-size:11px;
+	font-family:Tahoma Helvetica, sans-serif;
+	letter-spacing:3px;
+}
+.logotext2 a{
+	color: #72b300;
+	text-decoration: none;
+}
+.logotext2 a:hover{
+	color: blue;
+	text-decoration: none;	
+}
+.top-tel{
+	position:relative;
+	top:0px;
+	left:0px;
+	color: #ff8400;
+	font-family:Arial , Helvetica,sans-serif;
+	font-size:12px;
+	letter-spacing:3px; 
+}
+.top-mail{
+	position:relative;
+	top:0px;
+	left:0px;
+	font-size:11px;
+	color: #72b300;
+	font-family:Tahoma Helvetica, sans-serif;
+	letter-spacing:2px; 
+}
+.top-shop{
+	position:relative;
+	top:0px;
+	left:0px;
+	font-size:11px;
+	color: #72b300;
+	font-family:Tahoma Helvetica, sans-serif;
+	letter-spacing:1px; 
+}
+.footer{
+	height:30px; 
+	background:#8ec227 url(../images/footer_bg.png) repeat-x top; 
+	margin:0px;
+}
+
+.bottom_addr{
+	float:left;
+	margin:0 auto;
+	color:#ffffff;
+	text-align:left;
+	font-family:arial, sans-serif;
+	font-size:12px;
+	padding: 0px 0px 0px;
+} 
+.bottom_menu {
+	float:left;
+	margin:0 auto;
+	color:#fffff;
+	text-align:left;
+	padding: 2px 0px 0px;
+	font-family:arial, sans-serif;
+	font-size:12px;
+	letter-spacing:2px;
+	text-decoration: none;
+}
+.bottom_menu a{
+	color:#fff;
+	text-decoration: none;
+	padding:0 10px;
+}
+.bottom_menu a:hover{
+	color:#000;
+	text-decoration: none;
+}
+.kino{
+	background:#e8b98d;
+	border:0px solid black;
+	margin:-5px 0px 0px 13px;
+	padding:5px 4px 0px 3px;
+	width:340px;
+	height:202px;
+}
+.zagolovok1{
+	color:#cc3300;
+	letter-spacing:4px;
+}
+
+
+
